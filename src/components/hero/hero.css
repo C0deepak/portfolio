@@ -1,0 +1,92 @@
+.homeHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    text-align: center;
+    background: radial-gradient(circle closest-corner at center 50%, #222, rgb(7, 7, 7) 42%) no-repeat;
+}
+.homeHero .heading{
+    display: inline-block;
+    text-transform: uppercase;
+    background: radial-gradient(circle farthest-corner at center center, #ccc, #333) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: heading;
+    line-height: 4rem;
+}
+.homeHero .heading1{
+    font-size: 2.2rem;
+}
+.homeHero .heading2{
+    font-size: 3.5rem;
+    letter-spacing: .32rem;
+}
+.homeHero .heading3{
+    font-size: 2rem;
+}
+.homeHero .heroIcons{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(117, 117, 117, 0.2);
+    font-size: 4rem;
+}
+.heroIcons .icon1{
+    position: absolute;
+    top: -40vh; left: -35vw;
+}
+.heroIcons .icon2{
+    position: absolute;
+    top: -40vh; left: 27vw;
+}
+.heroIcons .icon3{
+    position: absolute;
+    top: -20vh; left: 37vw;
+}
+.heroIcons .icon4{
+    position: absolute;
+    top: 10vh; left: 27vw;
+}
+.heroIcons .icon5{
+    position: absolute;
+    top: -20vh; left: -45vw;
+}
+.heroIcons .icon6{
+    position: absolute;
+    top: 10vh; left: -35vw;
+}
+.heroIcons .icon7{
+    position: absolute;
+    top: 30vh; left: -42vw;
+}
+.heroIcons .icon8{
+    position: absolute;
+    top: 30vh; left: 34vw;
+}
+.homeHero .resumeBtn{
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media (max-width: 700px){
+    .homeHero .heading{
+        line-height: 3.2rem;
+    }
+    .homeHero .heading1{
+        font-size: 1.8rem;
+    }
+    .homeHero .heading2{
+        font-size: 2.8rem;
+        letter-spacing: .3rem;
+    }
+    .homeHero .heading3{
+        font-size: 1.5rem;
+    }
+    .homeHero .heroIcons{
+        font-size: 2.5rem;
+    }
+}

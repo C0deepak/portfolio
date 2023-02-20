@@ -1,0 +1,99 @@
+.homeAbout{
+    padding: 2rem 4rem;
+    background: rgb(7, 7, 7);
+}
+.homeAbout .heading{
+    color: #bbb;
+    font-family: heading;
+    font-size: 2rem;
+}
+.homeAboutWrapper{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+.homeAboutWrapper .left{
+    padding: 2rem 0;
+}
+.homeAboutWrapper .right{
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 280px;
+    max-height: 280px;
+    padding: 4px;
+    border: .32rem solid transparent;
+    border-image: linear-gradient(to right, rgb(7, 7, 7), #ccc);
+    border-image-slice: 1;
+}
+.homeAboutWrapper .right img{
+    width: 100%;
+    height: 100%;
+}
+.homeAboutMore{
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(117, 117, 117, 0.2);
+}
+.homeAboutMore .aboutMore{
+    font-size: 1.25rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.homeAboutMore .aboutMore .text span{
+    font-size: 1.8rem;
+    font-family: heading;
+    display: block;
+}
+@media (max-width: 1250px) {
+    .homeAboutWrapper{
+        padding: 0 2rem;
+    }
+}
+@media (max-width:950px) {
+    .homeAbout{
+        padding: 2rem;
+    }
+}
+@media (max-width: 750px) {
+    .homeAbout{
+        padding: 2rem 1rem;
+    }
+    .homeAboutWrapper{
+        padding: 0 1rem;
+    }
+    .homeAboutWrapper .left{
+        padding: 1rem 0;
+        font-size: .9rem;
+    }
+    .homeAboutWrapper .right{
+        min-width: 250px;
+        max-width: 250px;
+        min-height: 250px;
+        max-height: 250px;
+    }
+    .homeAboutMore{
+        padding: 2rem;
+    }
+    .homeAboutMore .aboutMore{
+        font-size: 1rem;
+    }
+    .homeAboutMore .aboutMore .text span{
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 550px) {
+    .homeAboutWrapper{
+        padding-top: 2rem;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        align-items: center;
+    }
+    .homeAboutMore{
+        display: none;
+    }
+}

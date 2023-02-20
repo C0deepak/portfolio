@@ -1,0 +1,88 @@
+footer{
+    padding: 1rem 4rem;
+    background: rgba(117, 117, 117, 0.2);
+}
+footer .heading{
+    color: #bbb;
+    font-family: heading;
+    font-size: 2rem;
+}
+.footerWrapper{
+    padding: 2rem 4rem;
+    display: flex;
+    gap: 2rem;
+}
+.footerWrapper .left{
+    flex: 50%;
+}
+.footerWrapper .right{
+    flex: 50%;
+}
+.footerWrapper .top{
+    display: flex;
+    gap: .5rem;
+}
+.footerWrapper input{
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    color: #bbb;
+    padding: .6rem;
+    margin: .25rem 0;
+    border: none;
+    outline: none;
+}
+.footerWrapper button{
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: .25rem 0;
+    border: none; outline: none;
+    background: radial-gradient(circle farthest-corner at center center, #bbb, #333) no-repeat;
+}
+.footerWrapper .right{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.footerWrapper .right a{
+    color: #bbb;
+    font-size: 1.32rem;
+    margin: .5rem;
+    text-decoration: none;
+}
+footer .footerCopy{
+    color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+@media (max-width: 1250px) {
+    .footerWrapper{
+        padding: 1rem 2rem;
+    }
+}
+@media (max-width:950px) {
+    footer{
+        padding: 2rem;
+    }
+}
+@media (max-width: 750px) {
+    footer{
+        padding: 2rem 1rem;
+    }
+    .footerWrapper{
+        padding: 1rem;
+    }
+}
+@media (max-width: 550px) {
+    footer{
+        padding: 1rem;
+    }
+    .footerWrapper{
+        flex-direction: column;
+    }
+    .footerWrapper .left{
+        flex: 100%;
+    }
+    .footerWrapper .right{
+        flex: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+button.primaryBtn{
+    padding: .6rem 1.4rem;
+    outline: none;
+    border: none;
+    background: none;
+    color: #000;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-weight: bold;
+    background: radial-gradient(circle farthest-corner at center center, #bbb, #333) no-repeat;
+    transition: .5s;
+}
+button.primaryBtn:hover{
+    transform: scale(1.032);
+}
