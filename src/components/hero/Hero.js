@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="heading heading3">a web developer</div>
 
                 <div className="resumeBtn">
-                    <a href='https://drive.google.com/file/d/1ExJSkpqr46UFnPHYUzgS8sMb66Y59bLO/view?usp=sharing' target='_blank'><Button value="Download Resume"></Button></a>
+                    <a href='https://drive.google.com/file/d/1MqbtLrVCb1kNVhQD-zBS-_l90z6cqPna/view?usp=sharing' target='_blank'><Button value="Download Resume"></Button></a>
                 </div>
 
                 <div className="heroIcons">
