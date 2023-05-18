@@ -29,7 +29,7 @@ const Project = () => {
                     class="noActive"
                     img="img/p2.png"
                     des="A gym website for a Gym, where the Gym Owner can display its facilities and all the brandings."
-                    link="#"
+                    link="https://radargym.netlify.app/"
                 >
                 </Card>
                 <Card
