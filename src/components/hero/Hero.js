@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoNodejs } from 'react-icons/io';
-import { SiMongodb, SiBootstrap, SiExpress, SiReact } from 'react-icons/si'
+import { SiMongodb, SiExpress, SiTailwindcss, SiNextdotjs } from 'react-icons/si'
 import Button from '../button/Button';
 import './hero.css'
 
@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="heading heading3">a web developer</div>
 
                 <div className="resumeBtn">
-                    <a href='https://drive.google.com/file/d/1HA_YYUaHOqCVTSQqeTk67iw6-_EUmqNt/view?usp=sharing' target='_blank'><Button value="Download Resume"></Button></a>
+                    <a href='https://drive.google.com/file/d/1oDsExvWruCoRH5TojURzQ9uh4fK9c4KC/view?usp=drive_link' target='_blank'><Button value="Download Resume"></Button></a>
                 </div>
 
                 <div className="heroIcons">
@@ -21,10 +21,10 @@ const Hero = () => {
                     <div className="icon icon2"><IoLogoCss3 /></div>
                     <div className="icon icon3"><IoLogoJavascript /></div>
                     <div className="icon icon4"><IoLogoNodejs /></div>
-                    <div className="icon icon5"><SiBootstrap /></div>
+                    <div className="icon icon5"><SiTailwindcss /></div>
                     <div className="icon icon6"><SiMongodb /></div>
                     <div className="icon icon7"><SiExpress /></div>
-                    <div className="icon icon8"><SiReact /></div>
+                    <div className="icon icon8"><SiNextdotjs /></div>
                 </div>
             </div>
         </>

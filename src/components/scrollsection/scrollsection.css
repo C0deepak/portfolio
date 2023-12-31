@@ -1,0 +1,206 @@
+.scroll-section-outer {
+    overflow: hidden;
+}
+
+.scroll-section-inner {
+    height: 100vh;
+    width: 200vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.scroll-section1 {
+    height: 100vh;
+    width: 200vw;
+    padding: 80px 5vw;
+}
+
+/* .scroll-section2 {
+    height: 100vh;
+    width: 100vw;
+    padding: 80px 5vw;
+} */
+
+.scroll-section1 h1 {
+    font-family: heading;
+    background: linear-gradient(#ccc, #7c7c7c, #ccc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+}
+
+/* .scroll-section2 h1 {
+    font-family: heading;
+    background: linear-gradient(#ccc, #7c7c7c, #ccc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.4rem;
+} */
+
+.scroll-section1 .about {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0 0;
+}
+
+.scroll-section1 .about .aboutLeft {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.scroll-section1 .about .aboutMiddle {
+    width: 45%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-section1 .about .aboutMiddle img {
+    height: 54vh;
+}
+
+.scroll-section1 .about .aboutMiddle h3 {
+    font-size: 1.32rem;
+    letter-spacing: .1rem;
+    max-width: 56%;
+    font-family: heading;
+    text-align: center;
+}
+
+.scroll-section1 .about .aboutRight {
+    width: 25%;
+    min-height: 18vh;
+}
+
+.scroll-section1 .about .aboutRight .testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-section1 .about .aboutRight .testimonialCard {
+    background: rgb(49, 49, 49);
+    padding: 40px 20px 20px;
+    max-width: 440px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to left, #aaa, #222, #aaa);
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    animation: animate 15s infinite linear;
+    animation-delay: calc(3s * var(--delay));
+}
+
+.testimonialCard .quote {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: .2;
+}
+
+.testimonialCard .para {
+    font-size: .9rem;
+}
+
+.testimonialCard .cabout .name {
+    font-weight: 600;
+}
+
+.scroll-section1 .about .aboutRight .testimonial:hover .testimonialCard {
+    animation-play-state: paused;
+}
+
+.testimonial .testimonialCard:last-child {
+    animation-delay: calc(-3s * var(--delay));
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(100%) scale(0.5);
+    }
+
+    5%,
+    20% {
+        opacity: 0.4;
+        transform: translateY(100%) scale(0.7);
+    }
+
+    25%,
+    40% {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0%) scale(1);
+    }
+
+    45%,
+    60% {
+        opacity: 0.4;
+        transform: translateY(-100%) scale(0.7);
+    }
+
+    65%,
+    100% {
+        opacity: 0;
+        transform: translateY(-100%) scale(0.5);
+    }
+}
+
+@media (max-width: 700px) {
+    .scroll-section1 {
+        padding: 60px 5vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .scroll-section1 h1 {
+        font-size: 1.4rem;
+        padding-bottom: 0;
+    }
+
+    .scroll-section1 .about .aboutLeft {
+        width: 50%;
+    }
+
+    .scroll-section1 .about .aboutMiddle {
+        display: none;
+    }
+
+
+    .scroll-section1 .about .aboutRight {
+        width: 50%;
+        /* min-height: 18vh; */
+    }
+
+    .scroll-section1 .about .aboutRight .testimonialCard {
+        padding: 20px 15px 15px;
+        max-width: 320px;
+    }
+
+    .testimonialCard .quote {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        opacity: .2;
+    }
+
+    .testimonialCard .para {
+        font-size: 1rem;
+    }
+
+    .testimonialCard .cabout .name {
+        font-weight: 600;
+    }
+}

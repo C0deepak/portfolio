@@ -28,11 +28,11 @@ const Footer = () => {
                             Email : deepakkumarkasyap12@gmail.com
                         </div>
                         <div className="bottom">
-                            Connect : <a href="https://github.com/C0deepak" target="_blank"><ImGithub/></a> <a href="#"><ImLinkedin/></a>
+                            Connect : <a href="https://github.com/C0deepak" target="_blank"><ImGithub/></a> <a href="https://www.linkedin.com/in/deepak-kumar-052779225/" target='_blank'><ImLinkedin/></a>
                         </div>
                     </div>
                 </div>
-                <div className="footerCopy">copyright &copy; Designed and Developed with love By D Bros.</div>
+                <div className="footerCopy">copyright &copy; Designed and Developed with love By D Bros.(Imalive)</div>
             </footer>
         </>
     )

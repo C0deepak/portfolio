@@ -7,7 +7,9 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    border-bottom: 1px solid rgba(82, 84, 82, 0.7);
+    /* border-bottom: 1px solid rgba(82, 84, 82, 0.7); */
+    background-color: rgba(12, 12, 12, 0.37);
+    backdrop-filter: blur(4px);
     z-index: 10;
 }
 nav .left a{

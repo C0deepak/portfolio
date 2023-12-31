@@ -1,5 +1,6 @@
 button.primaryBtn{
     padding: .6rem 1.4rem;
+    min-width: 132px;
     outline: none;
     border: none;
     background: none;
