@@ -92,12 +92,12 @@ const Work = () => {
                         <a href="https://c0deepak.github.io/keepNotes/" target='_blank'><Button value='Visit Website'></Button></a>
                     </div>
                     <div className='details'>
-                        <h1>Digitea</h1>
+                        <h1>AT Villa</h1>
                         <div className='para'>
-                            <p>Introducing "Digitea," a challenging yet exhilarating freelancing project where I brought cool animations and intricate designs to life on the frontend! 🌐💻</p>
-                            <p>Crafted with passion and precision, this project pushed the boundaries of frontend development. </p>
+                            <p>During my internship, I developed a stunning hotel website 🏨 using Next.js, Tailwind CSS, and Swiper, showcasing my frontend and UI/UX design skills. The site is fully responsive and beautifully displays all the hotel's offerings, creating an immersive experience for guests ✨.</p>
+                            <p>Crafted with passion and precision to present all the features of the client beautifully and neatly.</p>
                         </div>
-                        <a href="https://digitea.in/" target='_blank'><Button value='Visit Website'></Button></a>
+                        <a href="https://atvillahotels.com/" target='_blank'><Button value='Visit Website'></Button></a>
                     </div>
                     <div className='details'>
                         <h1>Zapp Invest</h1>
@@ -106,6 +106,14 @@ const Work = () => {
                             <p>This internship also honed my backend skills and also allowed me to flex my design muscles. From conceptualizing pages to breathing life into them through code.</p>
                         </div>
                         <a href="https://www.zappinvest.com/" target='_blank'><Button value='Visit Website'></Button></a>
+                    </div>
+                    <div className='details'>
+                        <h1>BIT Unfiltered</h1>
+                        <div className='para'>
+                            <p>built a platform for college students featuring a Resume Maker, Skill Booster, Portfolio Builder, and Image Upload Platform, with upcoming features like ASK BIT, and many more...🎓✨</p>
+                            <p>The project utilized Next.js, Shadcn, Tailwind CSS, Prisma, NextAuth.js, and MongoDB, enhancing my skills in full-stack development and user experience design. 💻🚀</p>
+                        </div>
+                        <a href="https://bitunfiltered.vercel.app/" target='_blank'><Button value='Visit Website'></Button></a>
                     </div>
                 </div>
 
@@ -133,10 +141,13 @@ const Work = () => {
                             <img src="/img/works/7.png" alt="" />
                         </div>
                         <div className='workGallery'>
-                            <img src="/img/works/8.png" alt="" />
+                            <img src="/img/works/12.png" alt="" />
                         </div>
                         <div className='workGallery'>
                             <img src="/img/works/9.png" alt="" />
+                        </div>
+                        <div className='workGallery'>
+                            <img src="/img/works/11.png" alt="" />
                         </div>
                     </div>
                 </div>
