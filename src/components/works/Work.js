@@ -108,12 +108,12 @@ const Work = () => {
                         <a href="https://www.zappinvest.com/" target='_blank'><Button value='Visit Website'></Button></a>
                     </div>
                     <div className='details'>
-                        <h1>BIT Unfiltered</h1>
+                        <h1>GradAI</h1>
                         <div className='para'>
                             <p>built a platform for college students featuring a Resume Maker, Skill Booster, Portfolio Builder, and Image Upload Platform, with upcoming features like ASK BIT, and many more...🎓✨</p>
                             <p>The project utilized Next.js, Shadcn, Tailwind CSS, Prisma, NextAuth.js, and MongoDB, enhancing my skills in full-stack development and user experience design. 💻🚀</p>
                         </div>
-                        <a href="https://bitunfiltered.vercel.app/" target='_blank'><Button value='Visit Website'></Button></a>
+                        <a href="https://gradai.in/" target='_blank'><Button value='Visit Website'></Button></a>
                     </div>
                 </div>
 
